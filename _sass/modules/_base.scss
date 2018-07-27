@@ -63,7 +63,7 @@ li {
 
 /** Links */
 a {
-    color: $color-blue-5;
+    color: $color-red-5;
 
     &:visited {
       color: #609;
@@ -112,7 +112,7 @@ pre, code {
   font-family: Menlo, Monaco, monospace;
   font-size: 15px;
   border-radius: 3px;
-  background-color: lighten($color-blue-1, 0.9);
+  background-color: lighten($color-red-1, 0.9);
 }
 
 code {
@@ -121,7 +121,7 @@ code {
 
 pre {
   padding: 8px 12px;
-  border: 1px solid $color-blue-2;
+  border: 1px solid $color-red-2;
   word-wrap: break-word;
 
   > code {
