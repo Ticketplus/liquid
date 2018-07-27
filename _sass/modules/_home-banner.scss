@@ -17,6 +17,12 @@
     }
   }
 
+  h4 {
+    span.logo-red {
+      color: $color-red;
+    }
+  }
+
   p {
     color: lighten($color-slate, 20%);
   }
