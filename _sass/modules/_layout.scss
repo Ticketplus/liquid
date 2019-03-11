@@ -50,7 +50,7 @@ body {
  ==============================================================================*/
 
 .sidebar {
-  background: $color-light-blue-5;
+  background: #f4f7f8;
   width: $sidebar-width;
   position: fixed;
   transform: translateX($sidebar-width * -1);
@@ -75,7 +75,6 @@ body {
   height: $logo-height;
   line-height: $logo-height;
   margin-bottom: 0;
-  border-bottom: 1px solid $color-light-blue-4;
 
   // &:after {
   //   content: '\01F4A7'; // Water droplet emoji
@@ -102,7 +101,7 @@ body {
     list-style: none;
 
     a {
-      color: $color-white;
+      color: #666;
 
       &:hover {
         text-decoration: none;
@@ -126,7 +125,7 @@ body {
 .section__header {
   font-size: 1em;
   text-decoration: none;
-  color: $color-white;
+  color: $color-deep-purple;
   margin-top: 0;
   margin-bottom: $spacing-unit / 4;
 }

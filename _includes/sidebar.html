@@ -1,8 +1,10 @@
 <div class="sidebar">
   <header class="sidebar__logo" role="banner">
-    <a href="{{ "/" | prepend: site.baseurl }}">Liquid</a>
+    <a href="{{ "/" | prepend: site.baseurl }}">
+      <img src="{{ '/images/logo.svg' | prepend: site.baseurl }}" width="180">
+    </a>
   </header>
-  <nav class="sidebar__nav"> {% assign sections = "basics, tags, filters" | split: ", " %}
+  <nav class="sidebar__nav"> {% assign sections = "pages, basics, tags, filters" | split: ", " %}
 
     {% for section in sections %}
     <h3 class="section__header">{{ section | capitalize }}</h3>

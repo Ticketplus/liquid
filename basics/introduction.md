@@ -13,7 +13,7 @@ Liquid code can be categorized into [**objects**](#objects), [**tags**](#tags), 
 <p class="code-label">Input</p>
 ```liquid
 {% raw %}
-{{ page.title }}
+{{ event.title }}
 {% endraw %}
 ```
 
@@ -22,7 +22,7 @@ Liquid code can be categorized into [**objects**](#objects), [**tags**](#tags), 
 Introduction
 ```
 
-In this case, Liquid is rendering the content of an object called `page.title`, and that object contains the text `Introduction`.
+In this case, Liquid is rendering the content of an object called `event.title`, and that object contains the text `Lollapalooza` for example.
 
 ## Tags
 

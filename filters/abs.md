@@ -42,4 +42,3 @@ Returns the absolute value of a number.
 ```text
 19.86
 ```
-
